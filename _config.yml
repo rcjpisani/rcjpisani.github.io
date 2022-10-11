@@ -29,8 +29,14 @@ github_username:  rcjpisani
 date_format: "%Y-%b-%d"
 timezone: America/Toronto
 
+# Header pages
+header_pages:
+  - about.html
+  - blog.html
+
 # Build settings
 theme: minima
+
 plugins:
   - jekyll-feed
 

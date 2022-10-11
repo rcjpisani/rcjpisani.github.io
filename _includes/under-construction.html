@@ -1,0 +1,10 @@
+<script>
+	window.onload = function() {
+			inner = "<section><img src=\"/assets/images/{{ include.image | default: 'under-construction.png' }}\" alt=\"{{ include.alt | default: 'Under Construction' }}\"></img></section>";
+			document
+				.getElementsByTagName("{{ include.tag | default: 'main' }}")[0]
+				.getElementsByClassName("{{ include.class_name | default: 'wrapper' }}")[0]
+				.innerHTML = inner;
+			return;
+	}
+</script>
