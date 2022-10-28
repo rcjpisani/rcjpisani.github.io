@@ -18,11 +18,11 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: "Robert Pisani"
-email: "robert.cj.pisani@gmail.com"
+title: Robert Pisani
+email: "rob@pisani.ca"
 description: "Software Engineer, Leader, Musician, Lifelong Learner"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://rcjpisani.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://rcj.pisani.ca/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: rcjpisani
 github_username:  rcjpisani
 
@@ -39,6 +39,7 @@ theme: minima
 
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
 
 # Exclude from processing.
 # The following items will not be processed, by default.
