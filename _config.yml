@@ -37,13 +37,14 @@ header_pages:
   - blog.html
 
 # Build settings
-theme: minima
+remote_theme: jekyll/minima
 sass:
   sass_dir: _sass
 
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-remote-theme
 
 minima:
   skin: solarized
