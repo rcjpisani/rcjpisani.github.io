@@ -25,16 +25,9 @@ author:
 description: "Software Engineer, Leader, Musician, Lifelong Learner"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://rcj.pisani.ca/" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: rcjpisani
-github_username:  rcjpisani
 
 date_format: "%Y-%b-%d"
 timezone: America/Toronto
-
-# Header pages
-header_pages:
-  - about.html
-  - blog.html
 
 # Build settings
 remote_theme: jekyll/minima
