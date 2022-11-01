@@ -10,6 +10,11 @@ img[alt="Under Construction"] {
 	text-align: center;
 }
 
+#profile > span > h1,
+#profile > span > h5 {
+	display: inline;
+}
+
 img[src="/assets/images/profile.jpg"] {
 	display: block;
 	margin: 2.5% auto;

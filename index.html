@@ -7,7 +7,20 @@ layout: home
 
 <section id="profile">
   <img src="/assets/images/profile.jpg" alt="Probably one of very few pictures of me where my smile looks genuine! ;)">
-  <h1>Robert Pisani</h1>
+  <span>
+    <h1>
+      {{ site.data.people.rcjpisani.name.first }}
+      {{ site.data.people.rcjpisani.name.last }}
+    </h1>
+    <h5>
+      ({{ site.data.people.rcjpisani.pronouns }})
+    </h5>
+  </span>
+  <h6>
+    Also Known As:
+    "{{ site.data.people.rcjpisani.name.short }}",
+    "{{ site.data.people.rcjpisani.name.monikers[0] }}"
+  </h6>
   <p>{{ site.description }}</p>
 </section>
 
