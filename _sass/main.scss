@@ -1,4 +1,35 @@
+@import "skins/solarized.scss";
+
 img[alt="Under Construction"] {
 	display: block;
 	margin: auto;
+}
+
+#profile {
+	display: block;
+	text-align: center;
+}
+
+img[src="/assets/images/profile.jpg"] {
+	display: block;
+	margin: 2.5% auto;
+	border: thick solid $text-color;
+	border-radius: 50%;
+	width: 25%;
+	max-width: 100%;
+}
+
+.separator {
+	display: block;
+	width: 33%;
+	margin: 5vh auto;
+	border-bottom: solid thin $sol-mix1;
+}
+
+#about {
+	display: block;
+}
+
+#about > p {
+	white-space: pre-wrap;
 }
