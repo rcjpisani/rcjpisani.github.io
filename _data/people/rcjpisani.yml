@@ -25,32 +25,113 @@ location:
   province: Ontario
   country: Canada
 
-about: >
-  <p>Hi there!  My name is Robert Pisani, but you can just call me Rob. 
-  I'm a software professional and musician from the Greater Toronto Area
-  in Canada.  I got my start in software during my time at Sheridan
-  College where I studied Software Development and Network Engineering. 
-  As part of the internship program, I saw an opportunity to help a local
-  not-for-profit organization, the Alliance for Canadian New Music Projects
-  (ACNMP).  Together, with the help of my Uncle who was working at IBM as
-  my stand-in Project Manager for the internship (thanks Uncle Rick!) we
-  were able to gather requirements from the organization's members and
-  deliver a new website, and software to manage their syllabus of
-  contemporary Canadian music.  Though I still volunteer my services for
-  the organization today, I've since gone on to work at several companies
-  in various roles from Software Developer, Team Lead, and more recently
-  Sr. Manager - Software Engineering.</p>
-
-  <p>When I'm not working, you can usually find me with a guitar in my
-  hands either playing, transcribing music, or jamming with some friends. 
-  If i'm not making music, I'm probably lifting in my home gym (playing
-  guitar between sets, of course), camping, working on side-projects,
-  or playing with my cat!</p>
+about:
+  - >
+    Hi there!  My name is Robert Pisani, but you can just call me Rob. 
+    I'm a software professional and musician from the Greater Toronto Area
+    in Canada.  I got my start in software during my time at Sheridan
+    College where I studied Software Development and Network Engineering. 
+    As part of the internship program, I saw an opportunity to help a local
+    not-for-profit organization, the Alliance for Canadian New Music Projects
+    (ACNMP).  Together, with the help of my Uncle who was working at IBM as
+    my stand-in Project Manager for the internship (thanks Uncle Rick!) we
+    were able to gather requirements from the organization's members and
+    deliver a new website, and software to manage their syllabus of
+    contemporary Canadian music.  Though I still volunteer my services for
+    the organization today, I've since gone on to work at several companies
+    in various roles from Software Developer, Team Lead, and more recently
+    Sr. Manager - Software Engineering.
+  - >
+    When I'm not working, you can usually find me with a guitar in my
+    hands either playing, transcribing music, or jamming with some friends. 
+    If i'm not making music, I'm probably lifting in my home gym (playing
+    guitar between sets, of course), camping, working on side-projects,
+    or playing with my cat!
 
 experience:
+  - role: Sr. Manager, Software Engineering
+    company: Compass Digital
+    active: Oct 2020 - Oct 2022
+    description:
+      - Coach and lead developers, managers to help them grow in their role
+      - Help facilitate growth of others through continuous feedback.
+      - Deliver direction and value for the business through new product initiatives.
+      - Assist in road-mapping activities and feature prioritization
+      - Grow engineering team 30% from 14 direct reports.
+      - Reorganize engineering team based to focused business domains.
+  - role: Team Lead
+    company: Compass Digital
+    active: Sept 2019 – Oct 2020
+    description:
+      - Host lunch and learn sessions to knowledge share and discuss software design concepts.
+      - Participate in cross-disciplinary discovery and refinements related to new business initiatives.
+      - Facilitate technical refinement sessions with other Engineers.
+      - Create reusable Vue.js components and integrate with internal administration platform.
+  - role: Sr. Software Engineer
+    company: Compass Digital
+    active: Apr 2018 – Sept 2019
+    description:
+      - Build integrations for multiple payment gateways into our microservice payments infrastructure, supporting 500k+ transactions per month.
+      - Develop a Node.js module in collaboration with key business stakeholders to calculate taxes with strategies to handle Canadian and US tax requirements for shopping carts, orders, and reporting.
+      - Develop a linter with style input from the team to assist in writing more consistent, clean, and less error-prone code. Perform regular code reviews.
+  - role: Software Developer
+    company: TrackDDB
+    active: Mar 2017 – Apr 2018
+    description:
+      - Design, develop systems from business requirements documents.
+      - Integrate software with tools such as IBM Watson Campaign Automation, Adobe Campaign, Google Analytics, and client services.
+      - Automate systems provisioning using Docker and Docker Compose.
+      - Server administration and maintenance.
+  - role: Software Developer
+    company: Needls Media Inc.
+    active: Mar 2016 – Feb 2017
+    description:
+      - Perform various PHP and Linux back-end development involving expanding the distributed job system powered by RabbitMQ.
+      - Implement requirements from specifications and integrate them with the back-end services, utilizing data from third party APIs such as Facebook’s Graph and Marketing APIs, Recurly, Google Cloud Pub/Sub, et cetera.
+      - Server administration.
+      - Assist with front-end tasks; creating Angular.js controllers and services to consume and process data from using internal APIs.
+  - role: Software Developer
+    company: Alliance for Canadian New Music Projects
+    active: Jul 2011 - Present
+    description:
+      - Designed and developed a data administration system from requirements to allow staff to access, edit, and add information to the syllabus, with the ability to generate formatted PDF documents.
+      - Create a new website 
+      - Create stored procedures and functions.
 
 skills:
+  - TypeScript
+  - Node.js
+  - JavaScript
+  - Python
+  - Java
+  - MySQL
+  - MongoDB
+  - Docker
+  - FaaS / Serverless
+  - Terraform
+  - PHP
+  - Vue.js
+  - Angular
+  - React.js
+  - Ionic
+  - Linux
+  - CICD
+  - Amazon Web Services (AWS)
+  - REST
+  - Agile Methodologies
+  - Leadership
+  - Product Management
+  - Feature prioritization
+  - JIRA
+  - Development Road-mapping
 
 education:
+  - program: Computer Systems Technology - Software Development and Network Engineering (Co-op)
+    institution: Sheridan College
+    designation: Advanced Diploma
+    active:
 
 hobbies:
+  - Music (Guitar)
+  - Lifting
+  - Camping

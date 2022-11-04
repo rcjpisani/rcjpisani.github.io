@@ -29,5 +29,9 @@ layout: home
 <section id="about">
   <h2>About Me</h2>
 
-  {{ site.data.people.rcjpisani.about }}
+  {%- if site.data.people.rcjpisani.about.size > 0 -%}
+    {%- for paragraph in site.data.people.rcjpisani.about -%}
+      <p>{{ paragraph }}</p>
+    {%- endfor -%}
+  {%- endif -%}
 </section>
