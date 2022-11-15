@@ -42,13 +42,16 @@ plugins:
 minima:
   skin: solarized
   social_links:
-    linkedin: rcjpisani
-    twitter: rcjpisani
-    github: rcjpisani
-    instagram: rcjpisani
-    gitlab:
-      - username: rcjpisani
-        instance: gitlab.com
+    - platform: linkedin
+      user_url: "https://www.linkedin.com/in/rcjpisani/"
+    - platform: github
+      user_url: "https://github.com/jekyll/jekyll"
+    - platform: gitlab
+      user_url: "https://gitlab.com/rcjpisani"
+    - platform: twitter
+      user_url: "https://twitter.com/rcjpisani"
+    - platform: instagram
+      user_url: "https://www.instagram.com/rcjpisani/"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
