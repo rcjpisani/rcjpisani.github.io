@@ -1,5 +1,10 @@
 @import "skins/solarized.scss";
 
+/* Mastodon Verification */
+a[rel="me"] {
+	display: none;
+}
+
 img[alt="Under Construction"] {
 	display: block;
 	margin: auto;

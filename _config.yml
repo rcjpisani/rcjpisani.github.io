@@ -48,8 +48,8 @@ minima:
       user_url: "https://github.com/rcjpisani"
     - platform: gitlab
       user_url: "https://gitlab.com/rcjpisani"
-    - platform: twitter
-      user_url: "https://twitter.com/rcjpisani"
+    - platform: mastodon
+      user_url: "https://mstdn.ca/@rcjpisani"
     - platform: instagram
       user_url: "https://www.instagram.com/rcjpisani/"
 
