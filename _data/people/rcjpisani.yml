@@ -27,10 +27,19 @@ location:
 
 about:
   - >
-    Hi there!  My name is Robert Pisani, but you can just call me Rob.  I'm a software professional and musician from the Greater Toronto Area in Canada.  I got my start in software during my time at Sheridan College where I studied Software Development and Network Engineering.  As part of the internship program, I saw an opportunity to help a local, music-focused not-for-profit.  After speaking with the organization's members about their needs and technology opportunities, I delivered them a new website, and a system that is used to manage the data related to their core offering.  Though I still volunteer my services for the organization today, I've since gone on to work at several companies in various roles from Software Developer, Team Lead, and more recently Sr. Manager - Software Engineering.
+    Hi there!  My name is Robert Pisani, but you can just call me Rob.  I'm a software professional and musician from the Greater Toronto Area in Canada.  My general area of focus is the development of back-end systems, specifically scalable cloud solutions, but I've been known to get my hands dirty in the realm of building UIs.  I'm a huge fan of open-source software and systems and have been daily-driving Linux at home for many years now.  Over the years, I've worked in various technical and people-focused roles such as Senior Software Engineer, Team Lead - Software Engineering, and Sr. Manager - Software Engineering.  I'm currently working as a Tech Lead at Symcor - working with many teams in the organization to build a platform for Open Banking.
   - >
-    My general area of focus is the development of back-end systems, specifically scalable cloud solutions, but I've been known to get my hands dirty in the realm of building UIs. I'm a huge fan of open-source software and systems and have been daily-driving Linux at home for many years now.  I use Arch, btw 😉 - but also have many systems running Ubuntu but I heard that's not cool now?  When I'm not working, you can usually find me with a guitar in my hands either playing, transcribing music, or jamming with some friends.  If i'm not making music, I'm probably lifting in my home gym (playing guitar between sets, of course), camping, working on side-projects, messing around with home automation, playing video games or with my cat!
+      When I'm not working, you can usually find me with a guitar in my hands either playing, transcribing music, or jamming with some friends.  If i'm not making music, I'm probably lifting in my home gym (playing guitar between sets, of course), camping, working on side-projects, messing around with home automation, playing video games, or with my cat!
 experience:
+  - role: Tech Lead - Open Banking
+    company: Symcor
+    active: Feb 2023 - Present
+    description:
+      - Lead sessions with the team to design new system components.
+      - Collaborate with business/technical partners on product feature set and technical roadmaps.
+      - Lead team through the analysis & design phase of initiatives.
+      - Facilitate learning sessions with the team.
+      - Aid in the development of developers’ career growth through mentorship.
   - role: Sr. Manager, Software Engineering
     company: Compass Digital
     active: Oct 2020 - Oct 2022
@@ -77,7 +86,7 @@ experience:
     active: Jul 2011 - Present
     description:
       - Designed and developed a data administration system from requirements to allow staff to access, edit, and add information to the syllabus, with the ability to generate formatted PDF documents.
-      - Create a new website 
+      - Create a new website
       - Create stored procedures and functions.
 
 skills:
